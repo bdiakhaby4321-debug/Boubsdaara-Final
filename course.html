@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Course Content</title>
+  <link rel="stylesheet" href="course.css" />
+</head>
+<body>
+
+<header>
+  <h2 id="courseTitle"></h2>
+</header>
+
+<div class="container">
+
+<div class="type-grid">
+  <div class="type-card" data-type="quiz">Quiz</div>
+  <div class="type-card" data-type="midterm">Midterm</div>
+  <div class="type-card" data-type="lictures">lectures</div>
+  <div class="type-card" data-type="final">Final Exam</div>
+</div>
+
+
+  <div class="files" id="files"></div>
+
+  <div class="upload-box">
+    <input type="file" id="fileInput" />
+    <button onclick="uploadFile()">Upload File</button>
+  </div>
+
+</div>
+
+<script type="module" src="course.js"></script>
+</body>
+</html>

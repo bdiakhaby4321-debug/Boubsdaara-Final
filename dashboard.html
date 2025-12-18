@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BoubsDaara Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+
+<div class="layout">
+
+  
+    <h2>Select a Semester</h2>
+    <div class="semester-grid">
+        <div class="semester-card" onclick="showSemester('freshman1')">Freshman I</div>
+        <div class="semester-card" onclick="showSemester('freshman2')">Freshman II</div>
+        <div class="semester-card" onclick="showSemester('sophomore1')">Sophomore I</div>
+        <div class="semester-card" onclick="showSemester('sophomore2')">Sophomore II</div>
+        <div class="semester-card" onclick="showSemester('junior1')">Junior I</div>
+        <div class="semester-card" onclick="showSemester('junior2')">Junior II</div>
+        <div class="semester-card" onclick="showSemester('senior1')">Senior I</div>
+        <div class="semester-card" onclick="showSemester('senior2')">Senior II</div>
+    </div>
+
+  
+    <main class="content">
+        <h2 id="title">DAUSTIAN</h2>
+        <div id="result" class="items"></div>
+    </main>
+
+</div>
+
+
+<script src="dashboard.js"></script>
+</body>
+</html>
